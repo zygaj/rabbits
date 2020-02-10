@@ -50,7 +50,7 @@ for m=1:k
     x=XX(:,m);
     plot(x,y)
 end
-title('x_next_year = r * x_this_year * ( 1 - x_this_year );')
+title('x_n_e_x_t_y_e_a_r = r * x_t_h_i_s_y_e_a_r * ( 1 - x_t_h_i_s_y_e_a_r );')
 ylabel('X - population size at the end of time')
 xlabel('r - population increase parameter')
 
