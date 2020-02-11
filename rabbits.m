@@ -42,7 +42,6 @@ for m=1:w
     y=YY(m,:);
     y=sort(y);
     YYs(m,:)=y;
-    plot(x,y)
 end
 
 for m=1:k
